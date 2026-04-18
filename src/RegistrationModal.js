@@ -13,9 +13,7 @@ const RegistrationModal = ({ event, onClose, onRegister }) => {
     e.preventDefault();
     // Simulate registration
     setSubmitted(true);
-    setTimeout(() => {
-      onRegister();
-    }, 1500);
+    // Don't auto-close right away so user sees the success message
   };
 
   const handleChange = (e) => {
@@ -25,29 +23,31 @@ const RegistrationModal = ({ event, onClose, onRegister }) => {
     });
   };
 
+  const handleAwesomeClick = () => {
+    onRegister(); // Marks it as registered and closes the modal
+  };
+
   if (submitted) {
     return (
-      <>
-        <div className="modal-overlay" onClick={onClose}></div>
-        <div className="modal">
+      <div className="modal-overlay" onClick={onClose}>
+        <div className="modal" onClick={e => e.stopPropagation()}>
           <div style={{ textAlign: 'center', padding: '2rem' }}>
             <div style={{ fontSize: '4rem', marginBottom: '1rem' }}>✅</div>
             <h2>Registration Successful!</h2>
             <p>You are now registered for <strong>{event.title}</strong></p>
             <p>Check your email for confirmation.</p>
-            <button className="btn btn-primary" onClick={onClose} style={{ marginTop: '1rem' }}>
+            <button className="btn btn-primary" onClick={handleAwesomeClick} style={{ marginTop: '1rem' }}>
               Awesome!
             </button>
           </div>
         </div>
-      </>
+      </div>
     );
   }
 
   return (
-    <>
-      <div className="modal-overlay" onClick={onClose}></div>
-      <div className="modal">
+    <div className="modal-overlay" onClick={onClose}>
+      <div className="modal" onClick={e => e.stopPropagation()}>
         <h2>📝 Register for {event.title}</h2>
         <p style={{ marginBottom: '2rem', color: '#666' }}>
           {event.description}
@@ -102,7 +102,7 @@ const RegistrationModal = ({ event, onClose, onRegister }) => {
           </div>
         </form>
       </div>
-    </>
+    </div>
   );
 };
 
