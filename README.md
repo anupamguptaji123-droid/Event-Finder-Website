@@ -1,8 +1,5 @@
 
-<p align ="center">
 # 🎓 College Event Hub
-
-</p>
 
 <div align ="center">
 
