@@ -1,5 +1,10 @@
-<div align ="center">
+
+
 # 🎓 College Event Hub
+
+
+
+<div align ="center">
 
 A modern and user-friendly web application to manage and explore college events efficiently.
 </div>
