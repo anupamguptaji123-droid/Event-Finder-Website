@@ -17,7 +17,7 @@ A modern and user-friendly web application to manage and explore college events 
 ## 🚀 Features
 
 * 📅 **Featured Event Section**
-* 🧾 **Upcoming Events Listing**
+* 🧾 **Upcoming Events Listing** 
 * ⏳ **Live Countdown Timer**
 * 📝 **Event Registration Form**
 * ➕ **Add New Event Option**
