@@ -5,7 +5,7 @@
 A modern and user-friendly web application to manage and explore college events efficiently.
 </div>
 
-✨ Never miss an event again!
+✨ Never miss an event again! 
 
 
 ## 🌐 Live Demo
