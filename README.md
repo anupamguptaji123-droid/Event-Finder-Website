@@ -9,7 +9,7 @@ A modern and user-friendly web application to manage and explore college events 
 
 
 ## 🌐 Live Demo
-
+ 
 🔗 **View Project:**
 👉 https://finder-sage-one.vercel.app/
 
