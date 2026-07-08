@@ -1,4 +1,6 @@
-# 🎓 College Event Hub
+<div align ="center">
+  # 🎓 College Event Hub
+</div>
 
 <div align ="center">
 
