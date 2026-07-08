@@ -2,7 +2,7 @@
   
 # 🎓 College Event Hub
 
-## A modern and user-friendly web application to manage and explore college events efficiently.
+### A modern and user-friendly web application to manage and explore college events efficiently.
 
 </div>
 
