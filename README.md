@@ -15,8 +15,8 @@
 🔗 **View Project:**
 👉 https://finder-sage-one.vercel.app/
 
-
-## 🚀 Features
+ 
+## 🚀 Features 
 
 * 📅 **Featured Event Section**
 * 🧾 **Upcoming Events Listing** 
