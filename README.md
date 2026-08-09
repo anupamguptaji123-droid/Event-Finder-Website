@@ -130,7 +130,6 @@ Steps to contribute:
 Fork → Clone → Create Branch → Commit → Push → Pull Request
 ```
 
-
 ## 📄 License
 
 Licensed under the **MIT License**
